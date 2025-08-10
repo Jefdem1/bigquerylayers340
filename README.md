@@ -18,3 +18,9 @@ This plugin requires an active (free tier or paid) subscription to Google Cloud 
 
 ## Updating bundled BigQuery libs
 `pip install --target bqloader/libs google-cloud-bigquery --upgrade` 
+
+## Additional install notes
+git clone this repo
+zip the bigquerylayers340 folder
+in qgis click install from zip and locate the zip file you created
+this was tested on a google GCE instance with windows server 2025 and wgis 3.40.9
